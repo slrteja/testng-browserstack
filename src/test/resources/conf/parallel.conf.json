@@ -1,24 +1,30 @@
 {
-  "server": "hub-cloud.browserstack.com",
-  "user": "BROWSERSTACK_USERNAME",
-  "key": "BROWSERSTACK_ACCESS_KEY",
-
+  "server": "hub.browserstack.com",
+  "user": "slrteja_YyjF1h",
+  "key": "S734yP2b5cJGZ8U7bu93",
   "capabilities": {
     "build": "browserstack-build-1",
     "name": "parallel_test",
     "browserstack.debug": true
   },
-
   "environments": {
     "env1": {
-      "browser": "chrome"
+      "browser": "edge",
+      "browser_version": "102.0",
+      "os": "Windows",
+      "os_version": "11"
     },
     "env2": {
-      "browser": "firefox"
+      "browser": "chrome",
+      "browser_version": "102.0",
+      "os": "Windows",
+      "os_version": "11"
     },
     "env3": {
-      "os": "OS X",
-      "browser": "safari"
+      "device": "iPhone SE 2020",
+      "os_version": "13",
+      "browserName": "ios",
+      "realMobile": "true"
     }
   }
 }
